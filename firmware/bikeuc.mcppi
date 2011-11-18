@@ -1,0 +1,57 @@
+[DEVICE]
+Name=P18F452
+Clock=8000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=toroidalui.h
+[USE_EEPROM]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[EXPANDED NODES]
+Node1=Sources
+Count=1
+[FILES]
+Count=2
+File0=bikeuc.c
+File1=toroidalui.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+[OPENED_FILES]
+Count=3
+File0=bikeuc.c
+File1=toroidalui.c
+File2=toroidalui.h
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=7
+Path0=C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\
+Path1=C:\Program Files\Mikroelektronika\mikroC PRO for PIC\uses\P18\
+Path2=C:\Users\pgold\Desktop\bikeuc\firmware\
+Path3=C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\
+Path4=C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\
+Path5=H:\bikeuc\firmware\
+Path6=C:\Documents and Settings\pgold\Desktop\bikeuc\firmware\
+[HEADER_PATH]
+Count=0
+[HEADERS]
+Count=0
+[PLDS]
+Count=0
+[Useses]
+Count=5
+File0=Button
+File1=Lcd
+File2=Lcd_Constants
+File3=Sprintf
+File4=C_Type
