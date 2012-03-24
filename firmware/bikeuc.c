@@ -44,11 +44,13 @@ void resetTimer()
     // 1 second value
     //TMR0H = 0xE1;
     //TMR0L = 0x7B;
+    // 1 msecond value
     TMR0H = 0xFF;
     TMR0L = 0x05;
 
     INTCON.TMR0IF = 0;
 }
+
 
 void hud()
 {
@@ -56,12 +58,6 @@ void hud()
     Lcd_Out(1, 1, buff);
     sprintf(buff, "%.2frpm %.2fm       ", (60*tickCounter)/(float)secondCounter, meterCounter);
     Lcd_Out(2, 1, buff);
-}
-
-void drawDisplay()
-{
-    tui_draw();
-
 }
 
 
@@ -125,11 +121,9 @@ void main() {
     tui_register(0, 0, hud);
 
     while(1) {
-
-        
         scanKeys();
     
-        drawDisplay();
+        tui_draw();
         Delay_ms(100);
     }
 }

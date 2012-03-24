@@ -3,7 +3,6 @@
 
 /* Menu pointers */
 void (*tui_functors[10][10])(void);
-//void(void) tui_functors[10][10];
 
 
 /* Menu position */
@@ -41,4 +40,3 @@ void tui_right()
 {
     tui_pos_j++;
 }
-
