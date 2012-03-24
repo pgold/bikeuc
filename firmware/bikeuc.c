@@ -5,7 +5,7 @@
 #define BTN_DOWN  &PORTB, 4, 20, 0
 #define BTN_LEFT  &PORTB, 5, 20, 0
 #define BTN_RIGHT &PORTB, 6, 20, 0
-#define BTN_ENTER &PORTB, 6, 20, 0
+#define BTN_ENTER &PORTB, 7, 20, 0
 
 const float Pi = 3.1415926535;
 
